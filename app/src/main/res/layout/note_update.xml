@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/update_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/sh_enter_note"
+
+        android:gravity="start|top"
+        android:hint="@string/title"
+        android:padding="16dp"
+        android:textSize="20sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/update_dateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_title"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:textColor="@color/whiteTextColor_text" />
+
+    <EditText
+        android:id="@+id/update_context"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/update_dateTime"
+
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/sh_enter_note"
+        android:gravity="start|top"
+        android:hint="@string/contextNote"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_update_backSave"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/sh_button_back"
+
+        android:gravity="center" />
+
+    <!-- <com.google.android.material.floatingactionbutton.FloatingActionButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_margin="16dp"
+
+         android:src="@drawable/ic_color1"
+       />-->
+
+    <Button
+        android:id="@+id/btn_update_pink"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="214dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sh_button_back"
+        android:backgroundTint="@color/pink_background_note"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_update_yellow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="90dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sh_button_back"
+        android:backgroundTint="@color/yellow_background_note"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_update_gary"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="278dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sh_button_back"
+        android:backgroundTint="@color/gary_background_note"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_update_cyan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sh_button_back"
+        android:backgroundTint="@color/cyan_background_note"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_update_color"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_color1"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#6200EE</color>
+    <color name="colorAccent">#F4511E</color>
+    <!--    Theme  purple-->
+    <color name="purplePrimary">#9a92b2</color>
+    <color name="purple">#5459b2</color>
+    <color name="purpleButton">#ba4570</color>
+    <color name="purpleCheckbox">#50DD57</color>
+    <color name="purpleMenu">#d6d6ed</color>
+
+
+    <!--    Theme dark-->
+    <color name="darkButton">#FBFAF8</color>
+    <color name="darkButtonPrimary">#f34707</color>
+    <color name="darkPrimary">#1F2740</color>
+    <color name="darkItem">#273250</color>
+
+    <!--    Theme  Withe-->
+    <color name="whitePrimary">#f6f8fb</color> <!--background recyclerview-->
+    <color name="whiteItem_rc">#FBEFDC</color>
+    <color name="whiteItem_rc2">#a2caff</color>
+    <color name="whiteTextColor_header">#0f1212</color>
+    <color name="whiteTextColor_text">#5b5a59</color>
+    <color name="whiteButton">#5DA1FA</color>
+    <color name="whiteColorAccent">#3083FF</color>
+
+<!--    color background notes-->
+
+    <color name="cyan_background_note">#65A7FD</color>
+    <color name="yellow_background_note">#F3DA6D</color>
+    <color name="pink_background_note">#F1B5CA</color>
+    <color name="gary_background_note">#606060</color>
+    <color name="white_background_note">#FBEFDC</color>
+
+
+
+
+
+</resources>

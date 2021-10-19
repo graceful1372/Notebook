@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Tablayout">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="whiteTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/whitePrimary</item>
+        <item name="colorAccent">@color/whiteColorAccent</item>
+
+
+    </style>
+
+    <style name="pink" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/pink_background_note</item>
+    </style>
+
+
+</resources>
